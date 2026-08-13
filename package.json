@@ -2,14 +2,16 @@
   "name": "stamps-mini-test",
   "version": "1.0.0",
   "description": "Stamps Developer recruitment mini test solutions in JavaScript/TypeScript",
+  "type": "module",
   "main": "task1.js",
   "scripts": {
     "task1": "node task1.js",
     "task2": "node task2.js",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "node --test"
   },
   "keywords": [],
-  "author": "Farhan",
+  "author": "Farhan Aryadi",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.0.0",
